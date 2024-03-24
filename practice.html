@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연습</title>
+</head>
+<body>
+
+    
+<form>
+    <fieldset>
+        <legend>납품자 정보</legend><br><br>
+        <label>1.납품자명: </label><input type="text"><br>
+        <br>
+        <label>2.email: </label><input type="text"><br>
+        <br>
+        <label>3.홈페이지: </label><input type="text"><br>
+        <br>
+        <label>4.지역: </label>
+        <select name="지역">
+            <option value="ko">부산</option>
+            <option value="ch">광주</option>
+            <option value="jp">서울</option>
+            <option value="etc">인천</option>
+        </select>
+    </fieldset>
+</form>
+<br>
+<form>
+    <fieldset>
+        <legend>납품 정보</legend><br><br>
+        <label>상품명: </label><input type="text"><br><br>
+        <label>납품수량: </label><input type="text" min="100"><br><br>
+        <label>납품등급: </label><input type="range"><br><br>
+        
+        기타사항:
+        <textarea name="contents" cols="30" rows="10" style="resize:none;">
+        </textarea>
+        <br>
+        <br>
+ 
+        </fieldset>
+</form>
+<br>
+<button>send message </button>
+</body>
+</html>
+
+
+
+
+
